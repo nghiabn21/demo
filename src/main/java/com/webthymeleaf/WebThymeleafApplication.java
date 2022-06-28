@@ -1,13 +1,13 @@
-package com.laptrinhjava;
+package com.webthymeleaf;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WebBanHangApplication {
+public class WebThymeleafApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(WebBanHangApplication.class, args);
+        SpringApplication.run(WebThymeleafApplication.class, args);
     }
 
 }

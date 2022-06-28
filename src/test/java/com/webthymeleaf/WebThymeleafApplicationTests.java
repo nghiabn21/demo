@@ -1,10 +1,10 @@
-package com.laptrinhjava;
+package com.webthymeleaf;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WebBanHangApplicationTests {
+class WebThymeleafApplicationTests {
 
     @Test
     void contextLoads() {
