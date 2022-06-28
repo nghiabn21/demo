@@ -9,5 +9,5 @@ import java.util.List;
 
 @Service
 public interface IProductsDto {
-    Page<ProductsDao> GetDataProduct(int pageable);
+    List<ProductsDao> GetDataProduct();
 }

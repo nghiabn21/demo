@@ -25,7 +25,7 @@ public class HomeController extends MenuController{
       //  ModelAndView mav = new ModelAndView("/index");
         _mvShare.addObject("slides", slidesSer.GetDataSlide());
         _mvShare.addObject("categorys", categorysSer.GetDataCategorys());
-        _mvShare.addObject("products", dto.GetDataProduct(1));
+        _mvShare.addObject("products", dto.GetDataProduct());
 
         _mvShare.setViewName("/index");
 

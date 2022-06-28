@@ -16,10 +16,10 @@ public class ProductsSerImpl implements IProductsDto {
     @Autowired
     ProductsRepo productsRepo ;
     @Override
-    public Page<ProductsDao> GetDataProduct(int pageable){
-     //   List<ProductsDao> list = productsRepo.GetDataProduct();
-        Pageable pageable1 = PageRequest.of(pageable -1 , 12);
-        Page<ProductsDao> list = productsRepo.GetDataProduct(pageable1);
+    public List<ProductsDao> GetDataProduct(){
+        List<ProductsDao> list = productsRepo.GetDataProduct();
+//        Pageable pageable1 = PageRequest.of(pageable -1 , 12);
+//        Page<ProductsDao> list = productsRepo.GetDataProduct(pageable1);
         return  list;
     }
 }
